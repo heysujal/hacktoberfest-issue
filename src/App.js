@@ -6,7 +6,7 @@ function App() {
   const [issues, setIssues] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:3001/issues")
+    fetch("https://hacktoberfest-issues.herokuapp.com/issues")
       .then((res) => res.json())
       .then((issues) => setIssues(issues));
   }, []);
