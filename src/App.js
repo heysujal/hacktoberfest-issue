@@ -13,13 +13,10 @@ function App() {
 
   return (
     <div className="App">
-
-
-
       {issues.map((element, index) => {
         return (
           <div key={index}>
-            <IssueCard title={element.title} link={element.link} />
+           <IssueCard title={`${index + 1}. ${element.title}`} link={element.link} />
           </div>
         );
       })}
