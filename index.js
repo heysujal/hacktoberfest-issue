@@ -12,7 +12,7 @@ options = {
     token: process.env.MY_TOKEN,
     
     labels: 'first-timers-only',
-    limit: 10,
+    limit: 100,
     language: 'js',
     // complete: true
 };
