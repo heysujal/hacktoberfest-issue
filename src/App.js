@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import IssueCard from "./Components/IssueCard";
+import Table from "react-bootstrap/Table";
 import "./App.css";
 
 function App() {
@@ -13,18 +14,26 @@ function App() {
 
   return (
     <div className="App">
-
-
-
-      {issues.map((element, index) => {
+      <Table striped hover>
+        <thead>
+          <tr>
+            <th>Serial Number</th>
+            <th>Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+          {issues.map((element, index) => {
         return (
-          <div key={index}>
+          <tr>
+          <td>{index + 1}</td>
+          <td key={index}>
             <IssueCard title={element.title} link={element.link} />
-          </div>
+          </td>
+          </tr>
         );
       })}
-
-
+        </tbody>
+        </Table>
     </div>
   );
 }
