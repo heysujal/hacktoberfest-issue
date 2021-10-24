@@ -13,7 +13,9 @@
 ### Let's Contribute :
 
 ### Before starting let's have a glance at [[Readme.md](https://github.com/heysujal/hacktoberfest-issue/blob/main/README.md)]
+There are two branches `main` which is for frontend using React and `backend` which is being used for the backend server made using Node.js with express framework
 
+.Make sure you have Node.js installed
 ### Major steps on how to contribute :
 
 - **Step 1** - Fork this repository.
