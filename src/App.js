@@ -27,7 +27,7 @@ function App() {
           <tr>
           <td>{index + 1}</td>
           <td key={index}>
-            <IssueCard title={element.title} link={element.link} />
+            <IssueCard title={element.title} link={element.link} status={element.state} />
           </td>
           </tr>
         );
