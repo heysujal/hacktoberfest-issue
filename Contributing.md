@@ -47,7 +47,7 @@ git push -u origin <your_branch_name>
 
 
 
-15. Voila ❗ You have made a PR to the Community Classroom repository 💥 Sit back patiently and relax while the project maintainers review your PR. Please understand at times the duration can vary from a few hours to a few days.
+15. Voila ❗ You have made a PR to the Hacktoberfest-isssue repository 💥 Sit back patiently and relax while the project maintainers review your PR. Please understand at times the duration can vary from a few hours to a few days.
 
 
 
