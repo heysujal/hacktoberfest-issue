@@ -18,6 +18,7 @@ function App() {
         <thead>
           <tr>
             <th>Serial Number</th>
+            <th>Created On</th>
             <th>Issues</th>
           </tr>
         </thead>
@@ -26,6 +27,7 @@ function App() {
         return (
           <tr>
           <td>{index + 1}</td>
+          <td>{element.createdAt}</td>
           <td key={index}>
             <IssueCard title={element.title} link={element.link} />
           </td>
