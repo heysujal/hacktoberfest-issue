@@ -25,7 +25,7 @@ function App() {
         <tbody>
           {issues.map((element, index) => {
         return (
-          <tr>
+          <tr key={index}>
           <td>{index + 1}</td>
           <td>{element.createdAt}</td>
           <td key={index}>
