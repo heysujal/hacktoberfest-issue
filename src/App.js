@@ -29,7 +29,7 @@ function App() {
           <td>{index + 1}</td>
           <td>{element.createdAt}</td>
           <td key={index}>
-            <IssueCard title={element.title} link={element.link} />
+            <IssueCard title={element.title} link={element.link} labels={element.labels}/>
           </td>
           </tr>
         );
