@@ -25,11 +25,12 @@ function App() {
         <tbody>
           {issues.map((element, index) => {
         return (
-          <tr>
+          <tr key={index}>
           <td>{index + 1}</td>
           <td>{element.createdAt}</td>
           <td key={index}>
-            <IssueCard title={element.title} link={element.link} status={element.state} />
+            <IssueCard title={element.title} link={element.link} labels={element.labels} status={element.state}/>
+
           </td>
           </tr>
         );
